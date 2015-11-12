@@ -1,7 +1,7 @@
 
 Install: 
 ```
-> docker pull magex9/oracle-xe-11g
+> docker build magex9/oracle-xe-11g
 ```
 
 Run:
