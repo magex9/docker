@@ -27,8 +27,15 @@ Enter password: oracle
 Create a table:
 ```
 CREATE TABLE NAMES (NAME VARCHAR2(20));
-INSERT INTO NAMES (NAME) VALUE ('Scott');
+INSERT INTO NAMES (NAME) VALUES ('Scott');
 SELECT * FROM NAMES;
+```
+
+Create a view:
+```
+CREATE VIEW VW_NM (NM) AS SELECT NAME FROM NAMES;
+INSERT INTO VW_NM (NM) VALUES ('View Insert');
+SELECT * FROM VW_NM;
 ```
 
 Run PL/SQL:
