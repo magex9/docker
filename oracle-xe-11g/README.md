@@ -25,7 +25,18 @@ Enter password: oracle
 ```
 
 Create a table:
-```create table t (name varchar2(20) );```
+```
+create table t (name varchar2(20) );
+```
+
+Run PL/SQL:
+```
+SET SERVEROUTPUT ON;
+
+BEGIN
+   dbms_output.put_line('Hello, World!');
+END;
+```
 
 Connect database with following setting:
 ```
