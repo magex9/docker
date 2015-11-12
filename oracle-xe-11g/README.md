@@ -11,9 +11,9 @@ password: admin
 
 Oracle:
 > sqlplus
-Enter user name: system
-Enter password: oracle
+> Enter user name: system
+> Enter password: oracle
 
-SQL> create table t (name varchar2(20) );
+```create table t (name varchar2(20) );```
 
 

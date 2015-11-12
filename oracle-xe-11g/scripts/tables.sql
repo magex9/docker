@@ -1,7 +1,4 @@
-BEGIN
-   dbms_output.put_line('Hello, World!');
-END;
-
-CREATE TABLE T (
+CREATE TABLE NAMES (
 	NAME VARCHAR(20)
 );
+
