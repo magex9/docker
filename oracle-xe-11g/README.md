@@ -26,7 +26,9 @@ Enter password: oracle
 
 Create a table:
 ```
-create table t (name varchar2(20) );
+CREATE TABLE NAMES (NAME VARCHAR2(20));
+INSERT INTO NAMES (NAME) VALUE ('Scott');
+SELECT * FROM NAMES;
 ```
 
 Run PL/SQL:
