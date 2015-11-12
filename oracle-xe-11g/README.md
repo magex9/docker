@@ -1,9 +1,13 @@
 
 Install: 
+```
 > docker pull magex9/oracle-xe-11g
+```
 
 Run:
+```
 > docker run -d -p 49160:22 -p 49161:1521 magex9/oracle-xe-11g
+```
 
 Login:
 ```
@@ -20,5 +24,3 @@ Enter password: oracle
 
 Create a table:
 ```create table t (name varchar2(20) );```
-
-
