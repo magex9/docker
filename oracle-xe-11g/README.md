@@ -26,3 +26,12 @@ Enter password: oracle
 
 Create a table:
 ```create table t (name varchar2(20) );```
+
+Connect database with following setting:
+```
+hostname: localhost
+port: 49161
+sid: xe
+username: system
+password: oracle
+```
