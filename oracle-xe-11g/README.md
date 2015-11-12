@@ -9,6 +9,8 @@ Run:
 > docker run -d -p 49160:22 -p 49161:1521 magex9/oracle-xe-11g
 ```
 
+*Be patient, this takes a while to start up*
+
 Login:
 ```
 > ssh root@localhost -p 49160
