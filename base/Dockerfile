@@ -8,6 +8,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN /usr/bin/wget -O ~/.bashrc --no-check-certificate \
-	https://raw.githubusercontent.com/magex9/workspace/gh-pages/scripts/profile
+    https://raw.githubusercontent.com/magex9/config/master/profile
 RUN /usr/bin/wget -O ~/.vimrc --no-check-certificate \
-	https://raw.githubusercontent.com/magex9/workspace/gh-pages/scripts/vimrc
+	https://raw.githubusercontent.com/magex9/config/master/vimrc

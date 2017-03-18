@@ -9,5 +9,6 @@ RUN apt-get update && \
 COPY sql /sql
 
 RUN mysql -u root users < /sql/users.sql
+RUN mysql -u root roles < /sql/roles.sql
 
 EXPOSE 3306
