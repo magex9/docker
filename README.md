@@ -26,31 +26,31 @@ cat /etc/group | grep docker #should use the <username> as the group for the doc
 
 # Docker Commands
 
-List images:
+## List images:
 
 ```
 docker images
 ```
 
-# List running docker processes:
+## List running docker processes:
 
 ```
 docker ps
 ```
 
-# List all processes that were ever run:
+## List all processes that were ever run:
 
 ```
 docker ps -a
 ```
 
-# List only the container IDs:
+## List only the container IDs:
 
 ```
 docker ps -a -q
 ```
 
-# Running processes:
+## Running processes:
 
 ```
 docker run <image>
@@ -61,7 +61,7 @@ docker exec -it <name> <command> = run a command within a running container with
 docker stop <name> = stop a running container by using the name
 ```
 
-# Cleaning up Docker:
+## Cleaning up Docker:
 
 ```
 docker rm containerid = removes an instance of the container that was run
@@ -69,7 +69,7 @@ docker rm `docker ps -a -q` = remove all stopped containers
 docker rmi image-name = removes the docker image and its dependencies
 ```
 
-# Redirect port:
+## Redirect port:
 
 ```
 docker run -P = will redirect the container's port to a random port on the host machine's user port (port no 32,000+)
@@ -77,14 +77,14 @@ docker run -p 8080:80 = will redirect the container's port 80 to a port 8080 on 
 docker port <container-name> = will list the port mapping information
 ```
 
-# Adding volume:
+## Adding volume:
 
 ```
 using the "-v" option mounts the local file system. eg to mount for an nginx on centos
 -v /home/user/www:/usr/share/nginx/html
 ```
 
-# Building a Docker file:
+## Building a Docker file:
 
 ```
 docker login --username=<username>
